@@ -3,7 +3,7 @@ name: Setup
 description: Setup
 
 runs:
-  using: composite
+  using: node20
 
   steps:
     - name: Checkout

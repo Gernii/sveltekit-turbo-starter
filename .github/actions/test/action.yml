@@ -3,7 +3,7 @@ name: Test
 description: Lint, Fmt, Test, Check and build
 
 runs:
-  using: composite
+  using: node20
 
   steps:
     - name: Lint
