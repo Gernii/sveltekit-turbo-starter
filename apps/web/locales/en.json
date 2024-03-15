@@ -1,0 +1,7 @@
+{
+	"$schema": "https://inlang.com/schema/inlang-message-format",
+	"layout_header_openLanguageMenu": "Open Language Menu",
+	"layout_header_openThemeMenu": "Open Theme Menu",
+	"language": "Language",
+	"theme": "Theme"
+}

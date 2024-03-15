@@ -1,0 +1,7 @@
+{
+	"$schema": "https://inlang.com/schema/inlang-message-format",
+	"layout_header_openLanguageMenu": "Mở menu ngôn ngữ",
+	"layout_header_openThemeMenu": "Mở menu giao diện",
+	"language": "Ngôn ngữ",
+	"theme": "Giao diện"
+}

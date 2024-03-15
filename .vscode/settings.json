@@ -1,0 +1,20 @@
+{
+  "css.lint.unknownAtRules": "ignore",
+  "eslint.validate": ["javascript", "javascriptreact", "svelte"],
+  "prettier.documentSelectors": ["**/*.svelte"],
+
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "explicit"
+  },
+  "conventionalCommits.scopes": [
+    "backend-aws",
+    "web",
+    "eslint-config",
+    "types-bridge"
+  ],
+  "editor.formatOnSave": true,
+  "tailwindCSS.experimental.classRegex": [
+    ["cva(([^)]*))", "[\"'`]([^\"'`]*).*?[\"'`]"],
+    ["cx(([^)]*))", "(?:'|\"|`)([^']*)(?:'|\"|`)"]
+  ],
+}
