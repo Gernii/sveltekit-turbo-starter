@@ -2,7 +2,7 @@ name: Release
 on:
   push:
     branches:
-      - prod
+      - master
 
 permissions:
   contents: read
@@ -26,4 +26,4 @@ jobs:
       - name: Release
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: npx semantic-release
+        run: npx semantic-release@21.0.2
